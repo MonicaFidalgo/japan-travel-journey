@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Japan Travel Guide Design System - Cherry Blossom Theme */
+
+@layer base {
+  :root {
+    --background: 30 50% 98%;
+    --foreground: 0 0% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 350 65% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 40% 95%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 30 30% 92%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 15 80% 60%;
+    --accent-foreground: 0 53% 62%;
+    --accent-foreground-2: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 30% 88%;
+    --input: 30 30% 88%;
+    --ring: 350 65% 55%;
+
+    --radius: 0.75rem;
+
+    /* Custom Japan theme colors */
+    --sakura: 350 65% 75%;
+    --sakura-deep: 350 60% 50%;
+    --coral: 15 80% 60%;
+    --cream: 40 50% 96%;
+    --charcoal: 0 0% 25%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 30 30% 95%;
+
+    --card: 0 0% 12%;
+    --card-foreground: 30 30% 95%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 30 30% 95%;
+
+    --primary: 350 65% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 30 30% 95%;
+
+    --muted: 0 0% 18%;
+    --muted-foreground: 30 20% 65%;
+
+    --accent: 15 80% 55%;
+    --accent-foreground: 0 0% 100%;
+    --accent-foreground-2: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 350 65% 60%;
+
+    --sakura: 350 50% 45%;
+    --sakura-deep: 350 55% 40%;
+    --coral: 15 70% 50%;
+    --cream: 40 20% 15%;
+    --charcoal: 0 0% 85%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: "Inter", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: "Playfair Display", serif;
+  }
+
+  .font-body {
+    font-family: "Inter", sans-serif;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+
+  .bg-sakura {
+    background-color: hsl(var(--sakura));
+  }
+
+  .bg-sakura-deep {
+    background-color: hsl(var(--sakura-deep));
+  }
+
+  .bg-coral {
+    background-color: hsl(var(--coral));
+  }
+
+  .bg-cream {
+    background-color: hsl(var(--cream));
+  }
+
+  .text-sakura {
+    color: hsl(var(--sakura));
+  }
+
+  .text-sakura-deep {
+    color: hsl(var(--sakura-deep));
+  }
+
+  .text-coral {
+    color: hsl(var(--coral));
+  }
+
+  .text-charcoal {
+    color: hsl(var(--charcoal));
+  }
+}
