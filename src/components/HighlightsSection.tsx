@@ -57,7 +57,7 @@ const HighlightsSection = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-          {destinations.map((destination, index) => (
+          {destinations.map((destination) => (
             <div
               key={destination.name}
               className="group relative bg-card rounded-2xl p-6 shadow-md hover:shadow-xl border border-border/50 hover:border-primary/20 transition-all duration-300"
