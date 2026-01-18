@@ -6,7 +6,7 @@ import PreviewSection from "../components/PreviewSection";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 
-const Index = () => {
+const Home = () => {
   return (
     <main className="min-h-screen">
       <HeroSection />
@@ -20,4 +20,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Home;
