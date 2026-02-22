@@ -1,4 +1,4 @@
-import guidePreview from "../assets/guide-preview.png";
+import guidePreview from "../assets/guide.png";
 import { Eye } from "lucide-react";
 
 const PreviewSection = () => {

@@ -2,7 +2,7 @@ import { Button } from "./Button";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 const MidCTASection = () => {
-  const purchaseLink = "https://gumroad.com/l/japan-guide";
+  const purchaseLink = "https://mofimagic.gumroad.com/l/japanrouteguide";
 
   return (
     <section className="py-16 bg-gradient-to-r from-primary/10 via-sakura/20 to-coral/10">

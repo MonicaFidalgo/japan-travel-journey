@@ -11,8 +11,7 @@ const benefits = [
 ];
 
 const CTASection = () => {
-  // Replace this with your actual Gumroad or Buy Me a Coffee link
-  const purchaseLink = "https://gumroad.com/l/japan-guide";
+  const purchaseLink = "https://mofimagic.gumroad.com/l/japanrouteguide";
 
   return (
     <section

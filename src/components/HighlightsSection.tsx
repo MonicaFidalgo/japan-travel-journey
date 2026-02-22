@@ -25,7 +25,7 @@ const destinations = [
   },
   {
     name: "Kanazawa & Takayama",
-    days: "Days 8-10",
+    days: "Days 8-11",
     highlights: [
       "Kenrokuen Garden",
       "Shirakawa-go stop",
@@ -35,7 +35,7 @@ const destinations = [
   },
   {
     name: "Tokyo",
-    days: "Days 11-15",
+    days: "Days 12-15",
     highlights: [
       "Asakusa & Senso-ji",
       "Shibuya & Harajuku",

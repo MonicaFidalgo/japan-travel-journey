@@ -1,6 +1,6 @@
 import { Button } from "./Button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import guidePreview from "../assets/guide-preview.png";
+import guidePreview from "../assets/banner-japan-guide.webp";
 
 const HeroSection = () => {
   return (
@@ -85,7 +85,7 @@ const HeroSection = () => {
                 <img
                   src={guidePreview}
                   alt="Journey Through Japan Guide Preview - Tokyo Itinerary Page"
-                  className="w-full max-w-md h-auto"
+                  className="w-full h-auto"
                   loading="eager"
                 />
               </div>
