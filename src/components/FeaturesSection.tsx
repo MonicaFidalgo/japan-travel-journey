@@ -20,7 +20,7 @@ const features = [
     icon: Compass,
     title: "Practical Logistics",
     description:
-      "JR Pass strategies, transportation guides, budgeting tips, and packing lists. Everything you need to travel smart and save money.",
+      "Suica card guide, getting around, what to pack, and essential travel tips. The practical stuff that makes your trip easier.",
     highlight: "Complete Guide",
   },
 ];
