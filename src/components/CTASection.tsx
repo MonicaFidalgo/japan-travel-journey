@@ -5,9 +5,9 @@ const benefits = [
   "Instant PDF download",
   "15 days of detailed itineraries",
   "Cultural tips & etiquette guide",
-  "Practical logistics & budgeting",
+  "Practical logistics",
   "Personal recommendations",
-  "Lifetime access & updates",
+  "Lifetime access",
 ];
 
 const CTASection = () => {
