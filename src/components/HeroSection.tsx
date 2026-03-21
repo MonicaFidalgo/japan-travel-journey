@@ -55,7 +55,7 @@ const HeroSection = () => {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all"
                 asChild
               >
-                <a href="#get-guide">
+                <a href="https://mofimagic.gumroad.com/l/japanrouteguide" target="_blank" rel="noopener noreferrer">
                   Get Your Guide Now
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </a>
